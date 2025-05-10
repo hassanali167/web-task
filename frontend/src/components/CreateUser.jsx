@@ -4,7 +4,6 @@ import axios from 'axios';
 export default function CreateUser() {
   const [user, setUser] = useState({ name: '', email: '' });
 
-  
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios.post('http://localhost:5000/api/users/create', user);
