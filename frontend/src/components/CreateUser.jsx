@@ -3,7 +3,6 @@ import axios from 'axios';
 
 export default function CreateUser() {
   const [user, setUser] = useState({ name: '', email: '' });
-
   
   const handleSubmit = async (e) => {
     e.preventDefault();
