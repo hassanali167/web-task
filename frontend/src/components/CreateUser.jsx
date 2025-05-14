@@ -10,6 +10,7 @@ export default function CreateUser() {
     alert('User Created');
   };
 
+  
 
   return (
     <form onSubmit={handleSubmit}>
