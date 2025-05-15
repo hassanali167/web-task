@@ -9,7 +9,6 @@ export default function CreateUser() {
     await axios.post('http://localhost:5000/api/users/create', user);
     alert('User Created');
   };
-
   
   return (
     <form onSubmit={handleSubmit}>
