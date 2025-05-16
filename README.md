@@ -9,7 +9,6 @@ A simple full-stack web application built using **React**, **Node.js (Express)**
 ---
 
 
-
 ## 🚀 Features
 
 - 🔧 Create new users
