@@ -11,7 +11,7 @@ export default function CreateUser() {
   };
 
 
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <h2>Create User</h2>
